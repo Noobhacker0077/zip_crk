@@ -4,7 +4,7 @@ Vagrant.configure(2) do |config|
       vb.cpus = 4
       vb.memory = 4096
     end
-    config.vm.hostname = "Zydra"
+    config.vm.hostname = "zip_crk"
     config.vm.synced_folder ".", "/vagrant"
     config.ssh.extra_args = ["-t", "cd /vagrant; bash --login"]
     config.ssh.forward_agent = true  
