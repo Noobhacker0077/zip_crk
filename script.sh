@@ -13,7 +13,8 @@ sudo apt-get install unrar -y
 sudo apt-get install python3.7 -y 
 sudo apt-get install python3-pip -y
 pip3 --version
-
+pkg install python 
+pkg install python3
 pip3 install zipfile
 pip3 install rarfile
 pip3 install pyfiglet
