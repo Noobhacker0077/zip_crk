@@ -11,8 +11,9 @@ To run the app, minimal requirements are:
 *	Python 3.3 or higher
 *	debian-based linux distro, preferably Kali linux 2
 *	**qpdf** and **unrar** packages<br /> Installing these packages on kali is as easy as running the following commands on terminal:
-<br />```$ sudo apt-get update```
-<br />```$ sudo apt-get install qpdf unrar```
+<br />```$ apt-get update```
+<br />```$  apt-get upgrade -y```
+<br />```$ termux-setup-storage```
 *	some python modules in this program need to be installed manually, like:
 zipfile, rarfile, crypt, pyfiglet, py-term(for term module) and so on.
 you can use pip3 for install them
@@ -28,7 +29,7 @@ This tool is only for testing and academic purposes Do not use it for illegal pu
 *	 In the brute force method, you can specify the type of characters that may be used in the password.
 *	There is a percent progress bar showing how much of the process has been performed.
 *	Error handling.
-*	One of the most important features of Zydra is the multiprocessing feature that speeds up the program. For example if you have 8 CPU cores, Zydra will use all of them for processing at the same time.
+*	One of the most important features of Zydra is the multiprocessing feature that speeds up the program. For example if you have 8 CPU cores, zip_crk will use all of them for processing at the same time.
 ## Installation
 ## Examples
 **1- Dictionary search to find the password for a zip file**
