@@ -13,7 +13,8 @@ To run the app, minimal requirements are:
 *	**qpdf** and **unrar** packages<br /> Installing these packages on kali is as easy as running the following commands on terminal:
 <br />```$ apt-get update```
 <br />```$  apt-get upgrade -y```
-<br />```$ termux-setup-storage```
+<br />```$ termux-setup-storage```https://github.com/Noobhacker0077/zip_crk.git
+<br />```$ git clone https://github.com/Noobhacker0077/zip_crk.git
 *	some python modules in this program need to be installed manually, like:
 zipfile, rarfile, crypt, pyfiglet, py-term(for term module) and so on.
 you can use pip3 for install them
