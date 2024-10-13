@@ -33,8 +33,7 @@ This tool is only for testing and academic purposes Do not use it for illegal pu
 ## Examples
 **1- Dictionary search to find the password for a zip file**
 <br />In this example I use rockyou.txt dictionary
-<br /><br />```$ python3 zc.py –f file.zip –d rockyou.txt```<br /><br />
-![alt text](https://github.com/hamedA2/images/blob/master/zip_example.png)
+<br /><br />```$ python3 zc.py –f file.zip –d rockyou.txt```
  
 **2- Brute force search to find the password for the users in the shadow file**
 <br />Minimum length of password is 4 and maximum length is 4 and we try to find passwords that are composed of numbers and symbols letters.
